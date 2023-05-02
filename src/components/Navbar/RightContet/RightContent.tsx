@@ -1,10 +1,8 @@
-import { Flex } from '@chakra-ui/react';
-import React from 'react';
+import React from "react";
 
+type RightContentProps = {};
 
-const RightContent:React.FC = () => {
-    
-    
-    return (<></>)
-}
+const RightContent: React.FC<RightContentProps> = () => {
+  return <></>;
+};
 export default RightContent;
