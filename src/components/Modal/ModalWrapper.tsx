@@ -12,6 +12,7 @@ import {
 import React from "react";
 
 type ModalWrapperProps = {
+  children:any;
   isOpen: boolean;
   onClose: () => void;
 };
