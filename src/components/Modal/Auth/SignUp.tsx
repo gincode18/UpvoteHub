@@ -17,8 +17,7 @@ const SignUp: React.FC<SignUpProps> = ({ toggleView }) => {
     confirmPassword: "",
   });
   const [formError, setFormError] = useState("");
-  const [createUserWithEmailAndPassword, _, loading, authError] =
-    useCreateUserWithEmailAndPassword(auth);
+
 
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -32,7 +31,7 @@ const SignUp: React.FC<SignUpProps> = ({ toggleView }) => {
     }
 
     // Valid form inputs
-    createUserWithEmailAndPassword(form.email, form.password);
+  
   };
 
   const onChange = ({
