@@ -60,7 +60,6 @@ const CreateCommunityModal: React.FC<CreateCommunityModalProps> = ({
 
     setLoading(true);
     try {
-      // Create community document and communitySnippet subcollection document on user
       const communityDocRef = doc(firestore, "communities", name);
       await runTransaction(firestore, async (transaction) => {
         const communityDoc = await transaction.get(communityDocRef);
@@ -92,7 +91,6 @@ const CreateCommunityModal: React.FC<CreateCommunityModalProps> = ({
       mySnippets: [],
     }));
     handleClose();
-    router.push(`r/${name}`);
     setLoading(false);
   };
 
