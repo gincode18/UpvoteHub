@@ -97,7 +97,7 @@ const Posts: React.FC<PostsProps> = ({
   //     }
   //     // Removing existing vote
   //     else {
-  //       // Used for both possible cases of batch writes
+  //       // Used for both possible cases of batch writesvote
   //       const postVoteRef = doc(
   //         firestore,
   //         "users",

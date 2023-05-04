@@ -1,5 +1,7 @@
 ## LIVE DEMO
 https://upvote-hub.vercel.app/
+## TUTORIAL FOR SITE
+http://0x0.st/HZKu.pdf
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
