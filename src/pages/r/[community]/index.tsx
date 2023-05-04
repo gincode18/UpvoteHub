@@ -44,7 +44,7 @@ const CommunityPage: NextPage<CommunityPageProps> = ({ communityData }) => {
       ...prev,
       currentCommunity: communityData,
     }));
-  }, [communityData]);
+  }, [communityData, setCommunityStateValue]);
 
   // Community was not found in the database
   if (!communityData) {
